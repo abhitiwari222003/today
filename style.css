@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins" sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+
+.container{
+    background-color: #fff;    
+}
+.navbar{
+    box-shadow: 0px 0px 30px  rgba(0,0, 0.1);
+}
+.navbar-brand img{
+  width: 20%;
+  height: 45%;
+}
+
+/* .wrap1 .list{border: 1px solid red;} */
+/* .wrap1 ul li a{font-size: 100px;} */
+.nav-item a{
+    font-size: 20px;
+      
+}
+.btn{
+   background-color: #db3e00;
+}
+.btn-brand{
+    border: 1px solid #db3e00;
+    color:#fff;
+}
+.btn-brand:hover{
+    background-color: #e79090;
+}
+
+/* slider  */
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 4rem;
+    height: 25rem;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 30px;
+}
+.carousel-caption{
+    bottom: 190px;
+    z-index: 2;
+    /* left: 80px; border: 1px solid red; display: inline; width: 800px; */
+}
+.carousel-caption h1{
+    font-size: 75px;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+.carousel-caption p{
+    margin-bottom: 10px;
+    font-size: 20px; margin-top: 10px;
+}
+.carousel-caption .btn{
+    margin-top: 25px;
+   color: white; font-size: 20px; padding: 10px 35px 10px 35px;
+}
+
+.carousel-inner::before {
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0,0.4);
+    z-index:1;
+}
+
+/* about section */
+.about-section-padding{
+    padding-top: 80px;
+
+}
+.wrap3 h2{font-size: 40px; font-weight: 900;}
+.wrap3 p{font-size: 20px; color: grey; margin-top: 20px; margin-bottom: 30px;}
+.wrap3 a{padding: 10px 30px 10px 30px; font-size: 20px;}
+
+
+/* our Services */
+.our-services .row{
+     /* align-items: center; */
+     text-align: center;
+     padding-top: 50px;
+}
+.our-services h2{
+    font-size: 55px;
+   margin-top: 5px;
+}
+.our-services p{
+    margin-top: 10px ;
+}
+ .card {
+    margin-top: 35px;
+ }   
+.card-body h5 {
+    font-size: 24px;
+    margin-top: 5px;
+}
+.card-body p{
+    font-size:18px;
+    font-family: "oppins" sans-serif;
+    color: gray;
+}
+.card-body a{padding: 10px 30px 10px 30px; font-size: 18px;}
+/* review section */
+
+.slider-area {
+   background-color: #8a8888;
+   
+}
+ .review {
+   height: 20px;
+}
+/* our gallery */
+.our-gallery{
+    align-items: center;
+    text-align: center;
+    padding: 55px;
+   
+}
+.our-gallery h2{
+    background-color: #fff;
+}
+.our-gallery h2{
+    width: 2;
+    height: auto;
+    font-size: 55px;
+    color: #000;
+}
+.our-gallery span{
+    color:#db3e00;;
+     vertical-align: super;
+}
+
+
+
+.wrap4 .flex{display: flex; flex-wrap: wrap; justify-content: center; margin-top: 50px;}
+.wrap4 .flex .item{margin: 0px 25px 20px 0px; border-radius: 10px;}
+.wrap4 .flex .item img{width: 350px; height: 350px; border-radius: 10px; transition: 1s;}
+.wrap4 .flex .item img:hover{opacity: 0.7;}
+
+.wrap8{padding-top: 50px;padding-bottom: 50px;}
+.wrap8 .row .col-md-5 h2{color: grey; font-size: 24px; margin-bottom: 20px;}
+.wrap8 .row .col-md-5 .p1{color: grey; text-align: justify;}
+.wrap8 .row .col-md-5 ul{padding: 0px; margin-top: 30px; margin-bottom: 40px;}
+.wrap8 .row .col-md-5 ul li{list-style-type: none; color: grey;}
+.wrap8 .row .col-md-5 a{text-decoration: none; background-color: rgb(0, 183, 255); color: white; font-weight: 600; padding: 15px 30px 15px 30px; border-radius: 5px;}
+.wrap8 .row .col-md-7{position: relative;}
+.wrap8 .row .col-md-7 .cards{width: 250px; padding: 10px; border-radius: 5px; cursor: pointer; transition: 1s;}
+.wrap8 .row .col-md-7 .cards:hover{box-shadow: 0px 0px 100px grey;}
+.wrap8 .row .col-md-7 .cards .box i{color: grey;}
+.wrap8 .row .col-md-7 .cards h3{font-size: 20px; margin-top: 10px; color: grey;}
+.wrap8 .row .col-md-7 .cards .p1{color: grey;}
+.wrap8 .row .col-md-7 .cards a{text-decoration: none; color: grey;}
+.wrap8 .row .col-md-7 .card1{position: absolute; right: 0px;}
+.wrap8 .row .col-md-7 .card2{position: absolute; left: 100px; top: 100px;}
+.wrap8 .row .col-md-7 .card3{position: absolute; bottom: 0px; right: 0px;}
